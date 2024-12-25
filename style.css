@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    height: 10vh;
+    padding: 5px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: rgb(19, 145, 19);
+}
+
+
+.container{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    height: 6vmin;
+    width: 38vmin;
+    background-color: rgb(55, 54, 54);
+    border: none;
+    border-radius: 1vmin;
+    color: white;
+    font-size: 3.5vmin;
+}
+
+.button{
+    height: 72vmin;
+    width: 42vmin;
+    border: none;
+    border-radius: 2vmin;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1vmin 2vmin;
+}
+
+.btn1{
+    height: 8vmin;
+    width: 8vmin;
+    background-color: rgb(55, 54, 54);
+    border: none;
+    border-radius: 4vmin;
+    font-size: 3.5vmin;
+    color: rgb(19, 145, 19);
+    position: relative;
+}
+
+.btn2{
+    height: 8vmin;
+    width: 8vmin;
+    background-color: rgb(25, 25, 25);
+    border: none;
+    border-radius: 4vmin;
+    font-size: 3.5vmin;
+    color: white;
+}
+
+#C{
+    color: rgb(198, 40, 40);
+}
+
+#E{
+    background-color: rgb(19, 145, 19);
+    color: white;
+}
+
+.footer{
+    height: 9vh;
+    bottom: 0%;
+    background-color: black; 
+}
+
+.links
+{
+    width: 11vmin;
+    padding-top: 2vmin;
+    padding-left: 0.7vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vmin;
+}
+
+main{
+    background-image: url("img1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
